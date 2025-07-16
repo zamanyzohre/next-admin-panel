@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../../public/fonts/Vazir.eot") ;
+  /* IE9 Compact Modes */
+
+  src: url("../../public/fonts/Vazir.woff") format('woff'),
+       url("../../public/fonts/Vazir.woff2") format('woff2'),
+        url("../../public/fonts/Vazir.eot?#iefix") format('embedded-opentype'),
+         url("../../public/fonts/Vazir.ttf") format('truetype'); 
+         /* Safari Android IOs */
+}
+
+body{
+  font-family: 'vazir',sans-serif !important;
+}
+
+/* Header */
+/* .header .navbar{ */
+  /* position: absolute; */
+  /* top: 0;
+  right: 0; */
+  /* left: 0; */
+  /* z-index: 100; */
+/* } */
+.header .navbar a{
+  color: #fff;
+
+}
+.header .navbar-nav span,.navbar-nav a{
+  color: #838383 !important;
+}
+
+.navbar-toggler{
+  position:absolute;
+  top:10px;
+  left:10px
+}
+
+.sidebar{
+  position:fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 48px 0 0 !important; /* Height of navbar */
+  box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.1);
+
+}
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+.sidebar .nav{
+  padding-right: 0;
+  padding-top: 2rem;
+}
+
+.sidebar li a{
+  color: #222831;
+}
+.sidebar li a:hover {
+  color: #222831;
+}
+.sidebar li .active {
+  background-color: #e1e1e1;
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.Toastify__toast{
+  font-family:'vazir',sans-serif !important;
+}
+
+/* Pagination */
+.pagination {
+  --bs-pagination-active-bg: #222831 !important;
+  --bs-pagination-focus-color: #222831 !important;
+  --bs-pagination-color: #222831 !important;
+  --bs-pagination-hover-color: #222831 !important;
+  
+}
+.pagination .page-item:first-child .page-link {
+    border-top-right-radius: var(--bs-pagination-border-radius);
+    border-bottom-right-radius: var(--bs-pagination-border-radius);
+    border-top-left-radius: 0;
+    border-bottom-left-radius:0;
+}
+.pagination .page-item:last-child .page-link {
+    border-top-left-radius: var(--bs-pagination-border-radius);
+    border-bottom-left-radius: var(--bs-pagination-border-radius);
+    border-top-right-radius: 0;
+    border-bottom-right-radius:0;
+}
+.offset-md-4 {
+  margin-right: 33.33333333% !important;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+/* CreateProduct */
+.rmdp-container{
+  width: 100%;
+}

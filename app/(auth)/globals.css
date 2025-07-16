@@ -1,0 +1,23 @@
+ @font-face {
+  font-family: "vazir";
+  src: url("../../public/fonts/Vazir.eot") ;
+  /* IE9 Compact Modes */
+
+  src: url("../../public/fonts/Vazir.woff") format('woff'),
+       url("../../public/fonts/Vazir.woff2") format('woff2'),
+        url("../../public/fonts/Vazir.eot?#iefix") format('embedded-opentype'),
+         url("../../public/fonts/Vazir.ttf") format('truetype'); 
+         /* Safari Android IOs */
+} 
+
+ body{
+  font-family: 'vazir',sans-serif !important;
+} 
+
+.login{
+  height: 100vh;
+}
+.Toastify__toast{
+  font-family:'vazir',sans-serif !important;
+}
+ 
