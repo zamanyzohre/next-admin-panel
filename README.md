@@ -1,36 +1,123 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## ![food icon](https://img.icons8.com/color/24/hamburger.png) ساخت پروژه فروشگاهی و رستوران غذا با Nextjs و Bootstrap
 
-## Getting Started
+- `این بخش مربوط به فرانت پروژه است
+`
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ![](https://img.icons8.com/?size=25&id=qbPAZjbNRPIS&format=png&color=000000) ویژگی های این پروژه
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-> طراحی کامل با Next.js و ساختار کامپوننتی
 
-## Learn More
+-> استفاده از CSS و Bootstrap برای استایل‌دهی و چیدمان 
 
-To learn more about Next.js, take a look at the following resources:
+-> طراحی کاملاً Responsive برای نمایش در موبایل، تبلت و دسکتاپ
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-> استفاده از Local Storage برای حفظ سبد خرید در مرورگر
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-> ارتباط با API جهت دریافت  اطلاعات و دسته‌بندی‌ها و ... 
 
-## Deploy on Vercel
+-> هندل کردن خطاهای شبکه و نمایش مناسب به کاربر
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-> بهینه‌سازی عملکرد با Lazy Loading و Split Code
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-> قابلیت لاگین شدن براساس شماره موبایل و ارسال کد تایید به روش Otp(ارسال Sms)
+
+-> امکان ذخیره اطلاعات ورود و هدایت کاربران به داشبورد پس از ورود موفق
+
+-> نمایش پیام خوش‌آمدگویی    پس از ورود 
+
+-> امکان ویرایش اطلاعات کاربری
+
+-> نمایش پیام‌های خطا برای فیلدهای خالی یا اطلاعات نادرست
+
+-> نمایش لیست سفارشات و تراکنش ها
+
+-> نمایش دسته‌بندی غذاها در قالب تب‌بندی 
+
+-> فیلتر جستجو براساس نام ,دسته بندی و مرتب سازی براساس بیشترین قیمت , کمترین  , پرفروش ترین ها و ...
+
+-> قابلیت افزودن به سبد خرید و نمایش مجموع قیمت‌ها 
+
+-> امکان افزودن کد تخفیف و اعمال کد تخفیف در سبد خرید
+
+ -> قابلیت وصل شدن به درگاه پرداخت 
+
+-> قابلیت Pagination یا صفحه بندی
+
+-> نمایش پیشرفت جستجو در بالای  هر صفحه(Progressbar)
+
+-> شناسایی مکان کاربر با Map
+
+-> استفاده از React Router برای مدیریت مسیرها (صفحه اصلی، دسته‌ بندی ها، سبد خرید، 404 و ...)
+
+
+
+
+---
+
+## تکنولوژی های استفاده شده در پروژه عبارتند از :
+
+
+<p dir="rtl" align="right">
+<ul>
+<li>Next.js</li>
+<li>Bootstrap</li>
+<li>Node.js</li>
+<li>React Hooks</li>
+<li>React Router</li>
+<li>Redux</li>
+<li>Fetch Api</li>
+<li>Css</li>
+</ul>
+</p>
+
+---
+
+## کتابخانه های استفاده شده
+- @reduxjs/toolkit
+- bootstrap
+- bootstrap-icons
+- leaflet
+- next
+- next-nprogress-bar
+- react
+- react-dom
+- react-redux
+- react-tabs
+- react-toastify
+- redux-persist
+
+## دمو و پیش نمایش پروژه
+#### برای دیدن دمو [اینجا](https://next-shoping-project-7godn37f8-zamanyzohres-projects.vercel.app/) را کلیک کنید
+
+---
+
+<p>
+  <img src="image/11.png" width="230"/>
+  <img src="image/1.png" width="230"/>
+  <img src="image/3.png" width="230"/>
+  <img src="image/4.png" width="230"/>
+  <img src="image/5.png" width="230"/>
+  <img src="image/6.png" width="230"/>
+  <img src="image/7.png" width="230"/>
+  <img src="image/8.png" width="230"/>
+  <img src="image/2.png" width="230"/>
+  <img src="image/9.png" width="230"/>
+  <img src="image/10.png" width="230"/>
+</p>
+
+---
+
+## 📢 راه‌های ارتباطی با من
+
+- 📞 شماره تماس: 09114759731
+- ![email](https://img.icons8.com/?size=20&id=P7UIlhbpWzZm&format=png&color=000000) ایمیل: zozo.tiktak@gmail.com
+- ![واتساپ](https://img.icons8.com/color/24/whatsapp--v1.png) واتساپ:  [ارسال پیام](https://wa.me/989114759731)
+- ![تلگرام](https://img.icons8.com/?size=25&id=EWzVSK2hyV9H&format=png&color=000000) تلگرام: [ارسال پیام](https://t.me/ZohreZamany)
+
+
+
+
