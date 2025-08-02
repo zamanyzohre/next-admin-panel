@@ -109,7 +109,7 @@
 ---
 
 ## 📸 دمو و پیش نمایش پروژه
-#### برای دیدن دمو [اینجا](https://next-shoping-project-7godn37f8-zamanyzohres-projects.vercel.app/) را کلیک کنید
+#### برای دیدن دمو [اینجا](https://next-admin-panel-one.vercel.app/login) را کلیک کنید
 
 ---
 
